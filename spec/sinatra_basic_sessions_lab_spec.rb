@@ -1,6 +1,6 @@
 describe App do
 
-  describe 'GET /' do
+  puts describe 'GET /' do
     
     it 'sends a 200 status code' do
       get '/'
@@ -14,7 +14,7 @@ describe App do
     end
   end
 
-  describe 'POST /checkout' do
+puts   describe 'POST /checkout' do
 
     it "displays the shopping cart contents" do 
       visit '/'
